@@ -1,0 +1,119 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 500px;
+    margin: 300px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    margin: 10px;
+  padding-bottom: 10px;
+   
+  
+}
+
+li:last-child {
+    border-bottom: none;
+   
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #193049;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+
+button:hover {
+    background-color: #12b300;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.match {
+    background-color: rgb(151, 251, 0);
+    font-weight: bold;
+}
+
+.search-message {
+    color: red;
+    font-size: 20px;
+    display: none; 
+}    
+
+.savebutton{
+    background-color: #aaa;
+    margin-bottom: 10px;
+    margin-right: 12px;
+    margin-left: 10px;
+}
+
+.savebutton:hover{
+    background-color: #dec9c9;
+    color: #193049;
+}
+
+.editButton{
+    background-color: #007BFF;
+    
+}
+
+.editButton:hover{
+
+    background-color: #569dea;
+
+}
+
+.deleteButton{
+    background-color: red;
+  
+}
+
+.deleteButton:hover{
+
+    background-color: rgba(237, 15, 15, 0.712);
+}
